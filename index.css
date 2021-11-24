@@ -1,0 +1,137 @@
+/*general*/
+
+* {
+    margin: 0;
+    color: white;
+}
+
+
+/*fin general*/
+
+
+/*header*/
+
+header {
+    background-color: #A63740;
+    padding: 10px;
+}
+
+#tete {
+    display: flex;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+}
+
+.close {
+    padding-top: 10px;
+}
+
+
+/*fin header*/
+
+
+/*main*/
+
+main {
+    /*background-color:#ff0008;*/
+    background: linear-gradient(90deg, red, black);
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0px 60px 50px;
+}
+
+#imgz {}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.title_2 {
+    padding: 10px;
+}
+
+.genre {
+    padding: 10px;
+}
+
+.genre>ul li:not(:last-child)::after {
+    content: "¤";
+    padding: 0 10px;
+}
+
+.genre>ul li {
+    display: inline;
+}
+
+.liste {
+    padding: 0px;
+}
+
+.description {
+    padding: 10px;
+}
+
+.bouton {
+    display: flex;
+    padding: 10px;
+}
+
+.play {
+    padding-right: 10px;
+}
+
+.ajouter {
+    padding-left: 10px;
+}
+
+
+/*fin main*/
+
+
+/*Footer*/
+
+footer {
+    background-color: #1D2126;
+}
+
+
+/*.description_bas:hover {
+}*/
+
+.description_bas>ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.liste2 {
+    padding: 30px;
+}
+
+.slider {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.img-contener {
+    width: 25%;
+}
+
+.description_bas>ul li:hover {
+    border-bottom: red solid 4px;
+    color: red;
+    padding-bottom: 10px;
+}
+
+
+/*fin footer*/
